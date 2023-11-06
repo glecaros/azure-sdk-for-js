@@ -93,7 +93,6 @@ function findCallSignature(
     if (signature.getParameters().length !== callSignature.getParameters().length) {
       return false;
     }
-    signature.getReturnTypeNode;
     if (!typeEquals(signature.getReturnType(), callSignature.getReturnType())) {
       return false;
     }
